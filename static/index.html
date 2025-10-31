@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 Oráculo Alucinado - Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Oráculo Alucinado</h1>
+        <p class="subtitle">Gerador de ideias criativas usando heurísticas em JavaScript</p>
+        
+        <div class="input-section">
+            <label for="keyword">Digite uma palavra-chave:</label>
+            <input type="text" id="keyword" placeholder="Ex: viagem rápida, tecnologia, saúde..." />
+            <button onclick="gerarIdeia()" id="gerarBtn">🔮 Gerar Ideia Alucinada</button>
+        </div>
+        
+        <div id="resultado" style="display: none;"></div>
+        
+        <div class="examples">
+            <h3>💡 Exemplos de palavras-chave:</h3>
+            <div class="example-tags">
+                <span class="tag" onclick="preencherKeyword('viagem espacial')">viagem espacial</span>
+                <span class="tag" onclick="preencherKeyword('blockchain')">blockchain</span>
+                <span class="tag" onclick="preencherKeyword('nutrição')">nutrição</span>
+                <span class="tag" onclick="preencherKeyword('sustentabilidade')">sustentabilidade</span>
+                <span class="tag" onclick="preencherKeyword('inteligência artificial')">inteligência artificial</span>
+                <span class="tag" onclick="preencherKeyword('energia renovável')">energia renovável</span>
+                <span class="tag" onclick="preencherKeyword('arte digital')">arte digital</span>
+                <span class="tag" onclick="preencherKeyword('medicina')">medicina</span>
+                <span class="tag" onclick="preencherKeyword('e-learning')">e-learning</span>
+                <span class="tag" onclick="preencherKeyword('crossfit')">crossfit</span>
+                <span class="tag" onclick="preencherKeyword('gastronomia molecular')">gastronomia molecular</span>
+                <span class="tag" onclick="preencherKeyword('ecoturismo')">ecoturismo</span>
+            </div>
+        </div>
+        
+        <div id="temas-info" class="examples">
+            <h3>🎨 Temas Disponíveis:</h3>
+            <div class="theme-info">
+                <div class="theme">
+                    <strong>🔬 Tecnologia:</strong> microchip, blockchain, metaverso, computação quântica, big data, inteligência artificial, IoT, realidade virtual, robótica, cloud computing, cibersegurança, machine learning
+                </div>
+                <div class="theme">
+                    <strong>💊 Saúde:</strong> nutrição, sono, imunidade, exercício, microbioma, meditação, terapia genética, medicina personalizada, biotecnologia, longevidade
+                </div>
+                <div class="theme">
+                    <strong>✈️ Viagem:</strong> espaço, oceano, montanha, deserto, floresta tropical, turismo sustentável, ecoturismo, aventura extrema, intercâmbio cultural
+                </div>
+                <div class="theme">
+                    <strong>🍽️ Comida:</strong> vegetariana, fermentada, molecular, sustentável, sabor umami, culinária étnica, ingredientes exóticos, fermentação, superalimentos
+                </div>
+                <div class="theme">
+                    <strong>🎓 Educação:</strong> e-learning, gamificação, realidade aumentada na educação, ensino adaptativo, microlearning, educação personalizada
+                </div>
+                <div class="theme">
+                    <strong>🌱 Sustentabilidade:</strong> energia renovável, economia circular, agricultura vertical, biomateriais, tecnologia limpa, carbono neutro
+                </div>
+                <div class="theme">
+                    <strong>🎨 Arte:</strong> arte digital, NFT, instalações interativas, arte generativa, realidade virtual artística, performance digital
+                </div>
+                <div class="theme">
+                    <strong>💪 Fitness:</strong> crossfit, yoga, HIIT, pilates, treino funcional, corrida, natação, artes marciais, dança fitness
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🧠 Este frontend usa algoritmos heurísticos para combinar temas diferentes<br>
+            e criar ideias factualmente distorcidas de propósito.</p>
+            <p>⚡ Construído com JavaScript puro + Docker</p>
+            <p>📊 Versão 3.0: 8 temas expandidos • 160+ keywords • 7 categorias de conectores</p>
+            
+            <p style="margin-top: 20px;">
+                <a href="https://github.com/mpraes/hallucistation" target="_blank" style="color: #feca57;">📚 Ver código no GitHub</a>
+            </p>
+        </div>
+    </div>
+    
+    <script src="hallucistation.js"></script>
+</body>
+</html>

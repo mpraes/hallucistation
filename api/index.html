@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 Oráculo Alucinado - Demo</title>
+    <link rel="stylesheet" href="/api/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Oráculo Alucinado</h1>
+        <p class="subtitle">Gerador de ideias criativas usando heurísticas em Python</p>
+        
+        <div class="input-section">
+            <label for="keyword">Digite uma palavra-chave:</label>
+            <input type="text" id="keyword" placeholder="Ex: viagem rápida, tecnologia, saúde..." />
+            <button onclick="gerarIdeia()" id="gerarBtn">🔮 Gerar Ideia Alucinada</button>
+        </div>
+        
+        <div id="resultado" style="display: none;"></div>
+        
+        <div class="examples">
+            <h3>💡 Exemplos de palavras-chave:</h3>
+            <div class="example-tags">
+                <span class="tag" onclick="preencherKeyword('viagem espacial')">viagem espacial</span>
+                <span class="tag" onclick="preencherKeyword('blockchain')">blockchain</span>
+                <span class="tag" onclick="preencherKeyword('nutrição')">nutrição</span>
+                <span class="tag" onclick="preencherKeyword('sustentabilidade')">sustentabilidade</span>
+                <span class="tag" onclick="preencherKeyword('inteligência artificial')">inteligência artificial</span>
+                <span class="tag" onclick="preencherKeyword('energia renovável')">energia renovável</span>
+                <span class="tag" onclick="preencherKeyword('arte digital')">arte digital</span>
+                <span class="tag" onclick="preencherKeyword('medicina')">medicina</span>
+                <span class="tag" onclick="preencherKeyword('e-learning')">e-learning</span>
+                <span class="tag" onclick="preencherKeyword('crossfit')">crossfit</span>
+                <span class="tag" onclick="preencherKeyword('gastronomia molecular')">gastronomia molecular</span>
+                <span class="tag" onclick="preencherKeyword('ecoturismo')">ecoturismo</span>
+            </div>
+        </div>
+        
+        <div id="temas-info" class="examples">
+            <!-- Informações dos temas serão carregadas aqui via JavaScript -->
+        </div>
+        
+        <div class="footer">
+            <p>🧠 Esta API usa algoritmos heurísticos para combinar temas diferentes<br>
+            e criar ideias factualmente distorcidas de propósito.</p>
+            <p>⚡ Construído com Python puro + Vercel Serverless Functions</p>
+            <p>📊 Versão 2.0: 8 temas expandidos • 160+ keywords • 7 categorias de conectores</p>
+            
+            <p style="margin-top: 20px;">
+                <button onclick="toggleInfo()" style="width: auto; padding: 8px 16px; font-size: 14px;">
+                    📊 Ver Estatísticas
+                </button>
+            </p>
+            
+            <div id="extra-info" style="display: none; margin-top: 15px; font-size: 12px;">
+                <p>🔗 <a href="/api/stats" style="color: #feca57;">Ver estatísticas detalhadas (JSON)</a></p>
+                <p>🔗 <a href="/api/info" style="color: #feca57;">Informações da API (JSON)</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="/api/script.js"></script>
+</body>
+</html>

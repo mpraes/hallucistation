@@ -1,0 +1,62 @@
+{
+  "tecnologia": {
+    "keywords": ["microchip", "blockchain", "metaverso", "computação quântica", "big data", "inteligência artificial", "realidade virtual", "internet das coisas", "machine learning", "cibersegurança", "cloud computing", "5G", "edge computing", "DevOps", "API", "microserviços", "containers", "kubernetes", "serverless", "automation", "neural networks", "deep learning", "algoritmos genéticos", "robótica", "nanotecnologia", "biotecnologia", "computação em nuvem", "data mining", "analytics", "business intelligence", "AR", "VR", "mixed reality", "digital twin", "smart contracts", "criptomoedas", "web3", "descentralização", "quantum computing", "edge AI"],
+    "description": "Temas relacionados à tecnologia, inovação digital e computação",
+    "weight": 1.0
+  },
+  "saúde": {
+    "keywords": ["nutrição", "sono", "imunidade", "exercício", "microbioma", "medicina", "terapia", "bem-estar", "longevidade", "prevenção", "diagnóstico", "tratamento", "reabilitação", "mindfulness", "yoga", "pilates", "suplementos", "vitaminas", "probióticos", "antioxidantes", "telemedicina", "medicina personalizada", "genômica", "bioterapia", "medicina integrativa", "acupuntura", "homeopatia", "fitoterapia", "aromaterapia", "meditação", "terapia cognitiva", "psicoterapia", "neuroplasticidade", "biohacking", "medicina preventiva", "saúde mental", "wellness", "detox", "jejum intermitente", "medicina funcional"],
+    "description": "Temas relacionados à saúde, medicina e bem-estar",
+    "weight": 1.0
+  },
+  "viagem": {
+    "keywords": ["espaço", "oceano", "montanha", "deserto", "floresta tropical", "turismo", "aventura", "exploração", "descoberta", "expedição", "safari", "cruzeiro", "mochilão", "intercâmbio", "cultura", "gastronomia", "paisagem", "natureza", "ecoturismo", "sustentável", "turismo espacial", "mergulho", "alpinismo", "trekking", "glamping", "turismo rural", "turismo gastronômico", "turismo cultural", "turismo religioso", "peregrinação", "road trip", "turismo de aventura", "turismo ecológico", "turismo histórico", "arqueoturismo", "turismo científico", "turismo de observação", "turismo fotográfico", "nomadismo digital", "workation"],
+    "description": "Temas relacionados a viagens, exploração e turismo",
+    "weight": 1.0
+  },
+  "comida": {
+    "keywords": ["vegetariana", "fermentada", "molecular", "sustentável", "sabor umami", "orgânica", "funcional", "gourmet", "artesanal", "tradicional", "fusion", "street food", "comfort food", "superfoods", "plant-based", "zero waste", "farm to table", "slow food", "probiótica", "antioxidante", "vegana", "raw food", "macrobiótica", "paleo", "keto", "mediterrânea", "asiática", "indiana", "mexicana", "brasileira", "cozinha experimental", "gastronomia científica", "fermentação natural", "agricultura urbana", "hidroponia", "aquaponia", "insetos comestíveis", "carne cultivada", "proteína alternativa", "nutrigenômica"],
+    "description": "Temas relacionados à alimentação, gastronomia e nutrição",
+    "weight": 1.0
+  },
+  "educacao": {
+    "keywords": ["aprendizagem", "ensino", "pedagogia", "didática", "currículo", "metodologia", "avaliação", "pesquisa", "conhecimento", "competência", "habilidade", "criatividade", "inovação educacional", "gamificação", "e-learning", "microlearning", "storytelling", "mentoria", "coaching", "desenvolvimento", "educação híbrida", "ensino adaptativo", "inteligência artificial na educação", "realidade virtual educacional", "aprendizagem colaborativa", "design thinking", "metodologias ativas", "sala de aula invertida", "aprendizagem baseada em projetos", "educação STEAM", "pensamento computacional", "literacia digital", "educação inclusiva", "neuroeducação", "andragogia", "heutagogia", "lifelong learning", "upskilling", "reskilling", "educação corporativa"],
+    "description": "Temas relacionados à educação, ensino e aprendizagem",
+    "weight": 1.0
+  },
+  "arte": {
+    "keywords": ["pintura", "escultura", "música", "dança", "teatro", "cinema", "literatura", "poesia", "fotografia", "design", "arquitetura", "moda", "performance", "instalação", "arte digital", "NFT", "street art", "artesanato", "cerâmica", "gravura", "arte conceitual", "videoarte", "arte interativa", "realidade aumentada artística", "arte generativa", "bio-arte", "eco-arte", "arte sonora", "arte têxtil", "arte urbana", "graffiti", "muralismo", "arte contemporânea", "arte moderna", "renascimento digital", "curadoria", "crítica de arte", "história da arte", "estética", "semiótica visual"],
+    "description": "Temas relacionados às artes e expressões culturais",
+    "weight": 1.0
+  },
+  "sustentabilidade": {
+    "keywords": ["energia renovável", "reciclagem", "economia circular", "carbono neutro", "biodiversidade", "conservação", "energia solar", "energia eólica", "permacultura", "agricultura orgânica", "água limpa", "mobilidade verde", "construção sustentável", "consumo consciente", "upcycling", "biomimética", "regeneração", "resiliência", "impacto social", "ESG", "energia hidroelétrica", "energia geotérmica", "biocombustíveis", "hidrogênio verde", "captura de carbono", "reflorestamento", "agrofloresta", "compostagem", "zero waste", "minimalismo", "slow fashion", "moda sustentável", "green tech", "cleantech", "smart cities", "urbanismo sustentável", "transporte público", "veículos elétricos", "pegada ecológica", "créditos de carbono"],
+    "description": "Temas relacionados à sustentabilidade e meio ambiente",
+    "weight": 1.0
+  },
+  "esportes": {
+    "keywords": ["futebol", "basquete", "tênis", "natação", "corrida", "ciclismo", "escalada", "surf", "skate", "yoga", "crossfit", "musculação", "artes marciais", "vôlei", "atletismo", "ginástica", "dança esportiva", "e-sports", "performance", "treinamento", "maratona", "triathlon", "ironman", "parkour", "calistenia", "powerlifting", "fisiculturismo", "boxe", "MMA", "jiu-jitsu", "karatê", "judô", "taekwondo", "capoeira", "pole dance", "pilates", "zumba", "spinning", "crosstraining", "treinamento funcional"],
+    "description": "Temas relacionados a esportes e atividades físicas",
+    "weight": 1.0
+  },
+  "psicologia": {
+    "keywords": ["comportamento", "cognição", "emoções", "personalidade", "desenvolvimento humano", "psicoterapia", "neuropsicologia", "psicologia positiva", "inteligência emocional", "autoconhecimento", "autoestima", "resiliência psicológica", "trauma", "PTSD", "ansiedade", "depressão", "bipolaridade", "mindfulness", "flow", "motivação", "liderança", "comunicação", "relacionamentos", "attachment", "psicologia social", "viés cognitivo", "neurofeedback", "terapia sistêmica", "gestalt", "psicanálise", "terapia cognitivo-comportamental", "EMDR", "hipnose", "PNL", "coaching psicológico", "psicologia organizacional", "burnout", "bem-estar mental", "saúde mental"],
+    "description": "Temas relacionados à psicologia e comportamento humano",
+    "weight": 1.0
+  },
+  "ciencia": {
+    "keywords": ["física quântica", "astrofísica", "biologia molecular", "genética", "química orgânica", "matemática aplicada", "estatística", "pesquisa científica", "método científico", "experimentação", "observação", "hipótese", "teoria", "descoberta", "inovação científica", "ciência de dados", "bioinformática", "neurociência", "oceanografia", "meteorologia", "geologia", "paleontologia", "arqueologia", "antropologia", "sociologia", "filosofia da ciência", "ética científica", "divulgação científica", "peer review", "reprodutibilidade", "interdisciplinaridade", "ciência cidadã", "open science", "big science", "ciência aplicada", "pesquisa básica", "transferência tecnológica", "inovação disruptiva", "paradigma científico", "revolução científica"],
+    "description": "Temas relacionados às ciências e pesquisa científica",
+    "weight": 1.0
+  },
+  "financas": {
+    "keywords": ["investimentos", "mercado financeiro", "criptomoedas", "trading", "análise técnica", "análise fundamentalista", "portfolio", "diversificação", "risco", "retorno", "volatilidade", "liquidez", "inflação", "deflação", "juros", "títulos", "ações", "derivativos", "hedge", "forex", "commodities", "real estate", "private equity", "venture capital", "fintech", "blockchain financeiro", "DeFi", "open banking", "pagamentos digitais", "carteiras digitais", "crédito", "financiamento", "empréstimos", "seguro", "previdência", "planejamento financeiro", "educação financeira", "finanças pessoais", "orçamento familiar"],
+    "description": "Temas relacionados a finanças e economia",
+    "weight": 1.0
+  },
+  "design": {
+    "keywords": ["design thinking", "UX design", "UI design", "design gráfico", "tipografia", "layout", "composição", "cores", "branding", "identidade visual", "logotipo", "design de produtos", "design industrial", "design de serviços", "design social", "design sustentável", "design universal", "acessibilidade", "usabilidade", "prototipagem", "wireframes", "mockups", "design system", "atomic design", "design responsivo", "design mobile first", "design centrado no usuário", "pesquisa de usuário", "personas", "jornada do usuário", "arquitetura da informação", "card sorting", "teste de usabilidade", "design colaborativo", "co-criação", "design estratégico", "innovation design", "service design", "design de experiência", "design emocional"],
+    "description": "Temas relacionados ao design e experiência do usuário",
+    "weight": 1.0
+  }
+}
