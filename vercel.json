@@ -1,10 +1,10 @@
 {
   "buildCommand": "echo 'No build needed for static files'",
   "outputDirectory": "static",
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "source": "/static/(.*)",
+      "source": "/(.*\\.(?:js|css|png|jpg|jpeg|gif|ico|svg))",
       "headers": [
         {
           "key": "Cache-Control",
