@@ -8,6 +8,14 @@
   ],
   "rewrites": [
     {
+      "source": "/styles.css",
+      "destination": "/static/styles.css"
+    },
+    {
+      "source": "/hallucistation.js",
+      "destination": "/static/hallucistation.js"
+    },
+    {
       "source": "/(.*)",
       "destination": "/static/index.html"
     }
