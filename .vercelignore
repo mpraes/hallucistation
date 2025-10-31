@@ -1,37 +1,18 @@
-# Ignore Python files and dependencies since this is now a static frontend
-*.py
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-pip-log.txt
-pip-delete-this-directory.txt
-.tox
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
+# Ignore development and build files for static deployment
 .git
-.mypy_cache
-.pytest_cache
-.hypothesis
+.cache
+*.log
+node_modules/
+.env
+.env.*
 
-# Ignore Python-specific files
-requirements.txt
-pyproject.toml
-main.py
-api/*.py
-tests/
-
-# Ignore Docker files for static deployment
+# Ignore Docker files for static deployment (use Docker for local dev)
 Dockerfile
 docker-compose.yml
 nginx.conf
+
+# Ignore development tools
 Makefile
 
-# Keep only static directory
+# Keep only static directory for Vercel deployment
 !static/

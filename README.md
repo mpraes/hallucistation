@@ -18,6 +18,8 @@ Esta versão foi completamente transformada para **frontend moderno** usando:
 - ✅ **Interface responsiva** com design moderno e animações
 - ✅ **Sem servidor** - tudo funciona localmente no navegador
 - ✅ **Super leve** - container de apenas ~30MB
+
+> 📚 **Versão Python**: A implementação original em Python/FastAPI está preservada na branch [`python-fastapi-version`](https://github.com/mpraes/hallucistation/tree/python-fastapi-version) para referência e comparação.
 - ✅ **Base de dados enriquecida** com 8 temas e 160+ keywords
 - ✅ **Sistema de fallbacks** robusto para alta disponibilidade
 
@@ -215,29 +217,18 @@ hallucistation/
 │   ├── index.html           # Interface web moderna
 │   ├── styles.css           # Design responsivo avançado
 │   └── hallucistation.js    # Algoritmo heurístico completo
-├── api/                      # 🚀 Legacy Serverless (opcional)
-│   ├── index.py             # Função serverless (para Vercel)
-│   ├── data_loader.py       # Sistema de dados
-│   ├── main.py              # Versão Python standalone
-│   ├── index.html           # Interface web
-│   ├── styles.css           # Estilos
-│   └── script.js            # JavaScript para API
-├── data/                     # 📊 Base de Conhecimento
+├── data/                     # 📊 Base de Conhecimento  
 │   ├── temas.json           # 8 temas × 20+ keywords = 160+ total
 │   └── conectores.json      # 7 categorias de conectores
-├── tests/                   # 🧪 Suite de Testes (Python)
-│   ├── test_oraculo.py      # Testes das funções core
-│   ├── test_serverless.py   # Testes da versão serverless
-│   ├── test_final.py        # Testes de integração
-│   └── test_showcase.py     # Demonstração completa
+├── docs/                     # 📚 Documentação
+│   └── requisitos.md        # Especificações do projeto
 ├── 🐳 Docker Configuration
 │   ├── Dockerfile           # Container nginx otimizado
 │   ├── docker-compose.yml   # Orquestração local
 │   ├── nginx.conf           # Configuração nginx avançada
 │   └── Makefile            # 20+ comandos de desenvolvimento
-├── vercel.json             # ⚙️ Configuração Vercel (opcional)
-├── requirements.txt        # 📦 Dependências Python (legacy)
-├── pyproject.toml          # 🔧 Configuração do projeto
+├── vercel.json             # ⚙️ Configuração Vercel (deploy)
+├── .vercelignore           # � Arquivos ignorados no deploy
 └── README.md              # 📚 Esta documentação
 ```
 

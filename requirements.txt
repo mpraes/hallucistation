@@ -1,2 +1,0 @@
-# Pure Python implementation - no external dependencies needed for Vercel
-# The application uses only Python standard library
