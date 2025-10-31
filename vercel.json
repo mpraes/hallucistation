@@ -4,6 +4,10 @@
     {
       "src": "static/**",
       "use": "@vercel/static"
+    },
+    {
+      "src": "data/**",
+      "use": "@vercel/static"
     }
   ],
   "rewrites": [
@@ -14,6 +18,10 @@
     {
       "source": "/hallucistation.js",
       "destination": "/static/hallucistation.js"
+    },
+    {
+      "source": "/data/(.*)",
+      "destination": "/data/$1"
     },
     {
       "source": "/(.*)",
@@ -39,7 +47,7 @@
       ]
     },
     {
-      "source": "/static/(.*\\.(?:js|css|png|jpg|jpeg|gif|ico|svg))",
+      "source": "/(.*\\.(?:js|css|png|jpg|jpeg|gif|ico|svg|json))",
       "headers": [
         {
           "key": "Cache-Control",
