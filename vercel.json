@@ -1,10 +1,15 @@
 {
-  "buildCommand": "echo 'No build needed for static files'",
-  "outputDirectory": "static",
+  "version": 2,
+  "builds": [
+    {
+      "src": "static/**",
+      "use": "@vercel/static"
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/index.html"
+      "destination": "/static/index.html"
     }
   ],
   "headers": [
@@ -26,7 +31,7 @@
       ]
     },
     {
-      "source": "/(.*\\.(?:js|css|png|jpg|jpeg|gif|ico|svg))",
+      "source": "/static/(.*\\.(?:js|css|png|jpg|jpeg|gif|ico|svg))",
       "headers": [
         {
           "key": "Cache-Control",

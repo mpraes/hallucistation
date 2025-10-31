@@ -1,0 +1,37 @@
+# Ignore Python files and dependencies since this is now a static frontend
+*.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Ignore Python-specific files
+requirements.txt
+pyproject.toml
+main.py
+api/*.py
+tests/
+
+# Ignore Docker files for static deployment
+Dockerfile
+docker-compose.yml
+nginx.conf
+Makefile
+
+# Keep only static directory
+!static/
