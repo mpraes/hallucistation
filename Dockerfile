@@ -7,6 +7,9 @@ ENV NGINX_PORT=8000
 # Copy static files to nginx html directory
 COPY static/ /usr/share/nginx/html/
 
+# Copy data files to nginx html directory
+COPY data/ /usr/share/nginx/html/data/
+
 # Copy custom nginx configuration
 COPY nginx.conf /etc/nginx/nginx.conf
 
